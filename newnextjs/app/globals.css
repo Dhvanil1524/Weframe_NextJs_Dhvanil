@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, sans-serif;
+}
+
+.productImage{
+  width: 552px;
+  height: 552px;
+  top: 273px;
+  left: 141px;
+}
+
+.similarproducts{
+  width: min(100%,1600px);
+  height: min(100%,570px);
+  top:1150px;
+  gap:30px;
+  padding:30px;
+  position: relative;
+}

@@ -1,0 +1,371 @@
+.wrapper {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+.navBar {
+position: absolute;
+width: 1600px;
+height: 168px;
+left: 0px;
+top: 0px;
+
+
+}
+
+.navContent {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo {
+position: absolute;
+left: 1.81%;
+right: 89.87%;
+top: 19.64%;
+bottom: 41.67%;
+
+
+}
+
+.searchBox { 
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 0px 15px;
+gap: 10px;
+position: absolute;
+width: 768px;
+height: 50px;
+left: 173px;
+top: 29px;
+background: #F9FAFB;
+border-radius: 6px;
+}
+
+.searchicon{
+position: absolute;
+width: 49px;
+height: 49px;
+left: 908px;
+top: 31.9px;
+}
+
+
+.cartBtn {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 16px;
+gap: 8px;
+position: absolute;
+width: 105px;
+height: 48px;
+left: 1650px;
+top: 31px;
+background: #0093D0;
+border: 1px solid #007AAD;
+border-radius: 6px;
+}
+
+
+.options{
+position: absolute;
+width: 1537px;
+height: 37.58px;
+left: 23px;
+top: 130.42px;
+}
+
+.dropdownbtn{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+width: 38px;
+height: 14px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.navbarbutton1{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+position: absolute;
+width: 109px;
+height: 21px;
+left: 1099px;
+top: 56px;
+font-weight: 500;
+}
+
+.avatar{
+display: flex;
+align-items: center;
+padding: 0px;
+position: absolute;
+width: 44px;
+height: 44px;
+left: 1800px;
+top: 35px;
+background: #EAEDEE;
+border-radius: 46px;
+}
+
+.mainWrapper {
+position: absolute;
+width: 761px;
+height: 652px;
+left: 30px;
+top: 231px;
+background: #F8F6F4;
+border-radius: 8px;
+}
+
+.breadcrumbs {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 0px;
+gap: 10px;
+
+position: absolute;
+width: 159px;
+height: 45px;
+left: 34px;
+top: 177px;
+}
+
+
+.mainImage {
+position: absolute;
+width: 552px;
+height: 552px;
+left: 141px;
+top: 273px;
+
+background: url("/images/machine image.jpg");
+mix-blend-mode: multiply;
+
+}
+
+.imageThumbnails {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.thumbnailItem1 {
+
+position: absolute;
+width: 55px;
+height: 55px;
+left: 41px;
+top: 241px;
+}
+
+.thumbnailItem2 {
+position: absolute;
+opacity:50%;
+width: 55px;
+height: 55px;
+left: 41px;
+top: 301px;
+background-color: #FFFFFF;
+background: url("/images/Table ronde 165cm Festi 2.jpg");
+mix-blend-mode: plus-darker;
+}
+
+.thumbnailItem3 {
+  position: absolute;
+  opacity:50%;
+  width: 55px;
+  height: 55px;
+  left: 41px;
+  top: 361px;
+  background-color: #FFFFFF;
+  background: url("/images/Table ronde 165cm Festi 2.jpg");
+  mix-blend-mode: plus-darker;
+ }
+
+ .thumbnailItem4 {
+  position: absolute;
+  opacity:50%;
+  width: 55px;
+  height: 55px;
+  left: 41px;
+  top: 421px;
+  background-color: #FFFFFF;
+  background: url("/images/Table ronde 165cm Festi 2.jpg");
+  mix-blend-mode: plus-darker;
+  
+  }
+
+.productDetails {
+position: absolute;
+width: 743.64px;
+height: 38px;
+left: 816px;
+top: 237px;
+}
+
+.productTitle {
+font-family: Montserrat Underline; 
+position: absolute;
+width: 743.64px;
+height: 38px;
+left: 816px;
+top: 237px;
+}
+
+.heart{
+box-sizing: border-box;
+position: absolute;
+width: 27.64px;
+height: 25.34px;
+left: 1532px;
+top: 243px;
+border: 1px solid #111928;
+}
+
+.productPrice {
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 7px;
+position: absolute;
+width: 416px;
+height: 30px;
+left: 816px;
+top: 289px;
+}
+
+.featureList {
+
+position: absolute;
+width: 744px;
+height: 126px;
+left: 816px;
+top: 407px;
+font-family: 'Geist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+color: #5D5D5D;
+}
+
+.size{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+position: absolute;
+width: 69px;
+height: 24px;
+left: 819px;
+top: 350px;
+}
+
+.height{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+position: absolute;
+width: 70px;
+height: 25px;
+left: 904px;
+top: 349px;
+}
+
+.addToCart {
+position: absolute;
+width: 592px;
+height: 50px;
+left: 978px;
+top: 822px;
+background: #5CD2DD;
+border-radius: 6px;
+}
+
+.productDescription {
+  margin-top: 2rem;
+}
+
+.descriptionHeading {
+position: absolute;
+width: 511px;
+height: 25px;
+left: 36px;
+top: 927px;
+font-family: 'Cabinet Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+color: #111928;
+}
+
+
+.favs{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 8px;
+position: absolute;
+width: 164px;
+height: 48px;
+left: 1180px;
+top: 31px;
+
+border-radius: 6px;
+
+}
+
+.descriptionText {
+position: absolute;
+width: 711px;
+height: 108px;
+left: 36px;
+top: 962px;
+
+font-family: 'Geist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18.2px;
+color: #9C9C9C;
+}
+
+.similarproducts{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+width: 1540px;
+height: 43px;
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+}
